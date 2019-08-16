@@ -25,8 +25,8 @@ const App = props => {
     setCharState({
       characters: [
         {name: "Arnold", job: "Mercenary", age: 27, health: charState.characters[0].health - 10, int: 45},
-        {name: "Lara", job: "Rogue", age: 23, health: 75, int: 60},
-        {name: "Gandalf", job: "Wizard", age: 225, health: 60, int: 95}
+        // {name: "Lara", job: "Rogue", age: 23, health: 75, int: 60},
+        // {name: "Gandalf", job: "Wizard", age: 225, health: 60, int: 95}
       ]
     })
     //console.log(charState);
@@ -36,8 +36,8 @@ const App = props => {
     setCharState({
       characters: [
         {name: "Arnold", job: "Mercenary", age: 27, health: charState.characters[0].health, int: charState.characters[0].int + 2},
-        {name: "Lara", job: "Rogue", age: 23, health: 75, int: 60},
-        {name: "Gandalf", job: "Wizard", age: 225, health: 60, int: 95}
+        // {name: "Lara", job: "Rogue", age: 23, health: 75, int: 60},
+        // {name: "Gandalf", job: "Wizard", age: 225, health: 60, int: 95}
       ]
     })
   }
